@@ -15,7 +15,7 @@ seed = 42
 np.random.seed(seed)
 
 
-from eda import data_engineering
+from data_analysis import data_engineering
 from train import model_train, save_model, load_model, scores
 
 data_engineering()
